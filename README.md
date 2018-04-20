@@ -6,7 +6,7 @@ Muestra los indicadores económicos en formato CSV desde la API de BCI
 
 En Google Spreadsheet escribir `=IMPORTDATA("https://indicadores-bci.herokuapp.com/indicadores.csv")` para poder obtener una tabla con los nombres y valores de los indicadores que entrega la API de BCI. Un ejemplo es:
 
-![example](./images/indicadorescsv.gif)
+![example](https://raw.githubusercontent.com/BciOpenBanking/indicadores-bci-csv/master/images/indicadorescsv.gif)
 
 Si se quiere obtener solo el valor de un indicador, escribir `=IMPORTDATA("https://indicadores-bci.herokuapp.com/UF.csv")` y así por ejemplo obtener el valor de la UF.
 
@@ -36,7 +36,7 @@ Para poder suscribirse, con la sesión iniciada entrar a API DOCS y en productos
 En el terminal, si no lo has hecho antes, escribe `bundle install` para instalar todas las gemas requeridas y luego de eso escribe `heroku local` para ver tu proyecto en localhost.
 
 En la terminal se debería ver algo como esto:
-![heroku](./images/heroku.png)
+![heroku](https://raw.githubusercontent.com/BciOpenBanking/indicadores-bci-csv/master/images/heroku.png)
 
 Se muestra que "Listening on tcp://0.0.0.0:5000" implica que el proyecto esta corriendo en el puerto 5000 en localhost. Para mostrar nuestro servidor local a cualquier persona en internet podemos generar una url con ngrok (seguir instrucciones de instalación en el link más arriba), abrir un nuevo terminal y escribir:
 
@@ -57,7 +57,7 @@ $ heroku git:remote -a NOMBRE-DE-TU-APP
 
 Al escribir `git remote -v` debería aparecer algo como esto:
 
-![github](./images/git-remote.png)
+![github](https://raw.githubusercontent.com/BciOpenBanking/indicadores-bci-csv/master/images/git-remote.png)
 
 Significa que ya tenemos nuestra app conectada con el repositorio.
 
